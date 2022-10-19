@@ -3,7 +3,7 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "eslint-config-next", "standard-with-typescript"],
+  "extends": ["plugin:react/recommended", "standard-with-typescript"],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
@@ -17,6 +17,7 @@
     "indent": ["error", 2],
 
     // typescript-eslint:
-    "@typescript-eslint/semi": ["error", "always"]
+    "@typescript-eslint/semi": ["error", "always"],
+    "@typescript-eslint/explicit-function-return-type": "off"
   }
 }
